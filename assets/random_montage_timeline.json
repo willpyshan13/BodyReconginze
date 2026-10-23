@@ -1,0 +1,471 @@
+{
+  "fps": 24,
+  "width": 640,
+  "height": 720,
+  "duration_seconds": 60,
+  "seed": 20261020,
+  "segments": [
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 0,
+      "frames": 19
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 1,
+      "frames": 18
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 2,
+      "frames": 24
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 0,
+      "frames": 10
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 1,
+      "frames": 32
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 2,
+      "frames": 24
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 0,
+      "frames": 11
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 1,
+      "frames": 16
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 2,
+      "frames": 10
+    },
+    {
+      "action": "rest",
+      "row": 0,
+      "column": 0,
+      "frames": 18
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 0,
+      "frames": 11
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 1,
+      "frames": 29
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 2,
+      "frames": 16
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 0,
+      "frames": 15
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 1,
+      "frames": 16
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 2,
+      "frames": 10
+    },
+    {
+      "action": "rest",
+      "row": 2,
+      "column": 0,
+      "frames": 15
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 17
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 18
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 23
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 11
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 22
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 15
+    },
+    {
+      "action": "rest",
+      "row": 0,
+      "column": 0,
+      "frames": 30
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 0,
+      "frames": 15
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 1,
+      "frames": 26
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 2,
+      "frames": 19
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 0,
+      "frames": 14
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 1,
+      "frames": 21
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 2,
+      "frames": 13
+    },
+    {
+      "action": "rest",
+      "row": 2,
+      "column": 0,
+      "frames": 13
+    },
+    {
+      "action": "squat",
+      "row": 0,
+      "column": 0,
+      "frames": 11
+    },
+    {
+      "action": "squat",
+      "row": 0,
+      "column": 1,
+      "frames": 24
+    },
+    {
+      "action": "squat",
+      "row": 0,
+      "column": 2,
+      "frames": 15
+    },
+    {
+      "action": "rest",
+      "row": 4,
+      "column": 0,
+      "frames": 35
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 13
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 17
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 21
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 21
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 18
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 14
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 18
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 27
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 20
+    },
+    {
+      "action": "rest",
+      "row": 4,
+      "column": 0,
+      "frames": 26
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 0,
+      "frames": 9
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 1,
+      "frames": 12
+    },
+    {
+      "action": "arm_raise",
+      "row": 1,
+      "column": 2,
+      "frames": 15
+    },
+    {
+      "action": "rest",
+      "row": 1,
+      "column": 0,
+      "frames": 32
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 0,
+      "frames": 10
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 1,
+      "frames": 15
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 2,
+      "frames": 14
+    },
+    {
+      "action": "rest",
+      "row": 1,
+      "column": 0,
+      "frames": 27
+    },
+    {
+      "action": "bicep_curl",
+      "row": 2,
+      "column": 0,
+      "frames": 20
+    },
+    {
+      "action": "bicep_curl",
+      "row": 2,
+      "column": 1,
+      "frames": 20
+    },
+    {
+      "action": "bicep_curl",
+      "row": 2,
+      "column": 2,
+      "frames": 17
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 16
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 24
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 24
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 19
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 19
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 23
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 11
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 1,
+      "frames": 20
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 2,
+      "frames": 24
+    },
+    {
+      "action": "rest",
+      "row": 0,
+      "column": 0,
+      "frames": 33
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 0,
+      "frames": 21
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 1,
+      "frames": 30
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 2,
+      "frames": 21
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 0,
+      "frames": 9
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 1,
+      "frames": 19
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 2,
+      "frames": 23
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 0,
+      "frames": 13
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 1,
+      "frames": 31
+    },
+    {
+      "action": "push_up",
+      "row": 3,
+      "column": 2,
+      "frames": 9
+    },
+    {
+      "action": "rest",
+      "row": 4,
+      "column": 0,
+      "frames": 27
+    },
+    {
+      "action": "lateral_raise",
+      "row": 4,
+      "column": 0,
+      "frames": 2
+    }
+  ]
+}

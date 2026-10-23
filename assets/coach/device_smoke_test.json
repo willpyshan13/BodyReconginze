@@ -1,0 +1,22 @@
+{
+  "device": "rk3399_all",
+  "android_api": 25,
+  "input": "Real bundled video exact-time decoded frames; not the user",
+  "result": {
+    "startedAt": 1792487376809,
+    "source": "真人视频演示",
+    "completed": true,
+    "totalReps": 4,
+    "sets": 2,
+    "repsPerSet": 2,
+    "completedSets": 2,
+    "activeMs": 10090,
+    "restMs": 5000,
+    "amplitudeSymmetryIndex": 92.02899,
+    "minimumKneeAngle": 73.02539,
+    "shallowAttempts": 0,
+    "fastReps": 1,
+    "scoring": "heuristic amplitude/symmetry only, not exercise-quality assessment"
+  },
+  "notes": "Observed full 2x2 test completion and local history persistence. Live camera unavailable on this device."
+}

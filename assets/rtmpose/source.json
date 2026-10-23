@@ -1,0 +1,10 @@
+{
+  "name": "RTMPose-t BODY7 17-keypoint",
+  "url": "https://download.openmmlab.com/mmpose/v1/projects/rtmposev1/onnx_sdk/rtmpose-t_simcc-body7_pt-body7_420e-256x192-026a1439_20230504.zip",
+  "sha256": "a6c2f6a3896a4d51131d14d7a80a3d08b50f559af5a58a45d5b098aef510a70f",
+  "runtime": "com.microsoft.onnxruntime:onnxruntime-android:1.17.3",
+  "roi": "whole image, 1.25 padding, single person; no detector",
+  "input": "RGB float32 NCHW 1x3x256x192",
+  "output": "SimCC x (1,17,384), y (1,17,512)",
+  "date": "2026-10-20"
+}

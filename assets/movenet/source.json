@@ -1,0 +1,14 @@
+{
+  "name": "MoveNet SinglePose Lightning float16 v4",
+  "url": "https://tfhub.dev/google/lite-model/movenet/singlepose/lightning/tflite/float16/4?lite-format=tflite",
+  "model_card": "https://www.kaggle.com/models/google/movenet/tfLite/singlepose-lightning-tflite-float16/1",
+  "sha256": "0fac2226112d0371903ca86e3853cec24ef603a0b2f96f589b180f0ebdd135ab",
+  "license": "Apache-2.0",
+  "runtime": "org.tensorflow:tensorflow-lite:2.10.0",
+  "execution": "CPU/XNNPACK, 2 threads, NNAPI disabled",
+  "input": "uint8 RGB NHWC [1,192,192,3], values 0..255",
+  "output": "float32 [1,1,17,3], y/x/score",
+  "roi": "whole-frame square black letterbox, no temporal crop tracking",
+  "display_threshold": 0.3,
+  "date": "2026-10-20"
+}

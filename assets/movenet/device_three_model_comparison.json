@@ -1,0 +1,1886 @@
+{
+  "device": "rk3399_all",
+  "android_api": 25,
+  "source": "31.167s full-body real squat video; same frames, 640px long side",
+  "runtimes": {
+    "mlKit": "18.0.0-beta5 CPU stream",
+    "rtmpose": "ONNX Runtime 1.17.3 CPU, 2 threads",
+    "moveNet": "TensorFlow Lite 2.10.0 CPU/XNNPACK, 2 threads"
+  },
+  "frames": [
+    {
+      "timestampMs": 0,
+      "warmup": true,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 171.416601,
+      "rtmposeMs": 169.44085,
+      "moveNetMs": 111.625511
+    },
+    {
+      "timestampMs": 200,
+      "warmup": true,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 52.03013,
+      "rtmposeMs": 170.978767,
+      "moveNetMs": 56.206214
+    },
+    {
+      "timestampMs": 400,
+      "warmup": true,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 55.687923,
+      "rtmposeMs": 91.632926,
+      "moveNetMs": 59.453339
+    },
+    {
+      "timestampMs": 600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 52.558339,
+      "rtmposeMs": 87.487176,
+      "moveNetMs": 60.892131
+    },
+    {
+      "timestampMs": 800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 65.677507,
+      "rtmposeMs": 90.123259,
+      "moveNetMs": 56.815506
+    },
+    {
+      "timestampMs": 1000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 92.259009,
+      "rtmposeMs": 128.363971,
+      "moveNetMs": 58.277048
+    },
+    {
+      "timestampMs": 1200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 56.437797,
+      "rtmposeMs": 86.907633,
+      "moveNetMs": 56.810839
+    },
+    {
+      "timestampMs": 1400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 79.063258,
+      "rtmposeMs": 85.5298,
+      "moveNetMs": 60.909631
+    },
+    {
+      "timestampMs": 1600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 44.837629,
+      "rtmposeMs": 84.571967,
+      "moveNetMs": 44.540713
+    },
+    {
+      "timestampMs": 1800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 59.104506,
+      "rtmposeMs": 169.058392,
+      "moveNetMs": 52.675006
+    },
+    {
+      "timestampMs": 2000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 53.361589,
+      "rtmposeMs": 159.398808,
+      "moveNetMs": 62.230007
+    },
+    {
+      "timestampMs": 2200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 54.132172,
+      "rtmposeMs": 123.442387,
+      "moveNetMs": 44.840546
+    },
+    {
+      "timestampMs": 2400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 49.45763,
+      "rtmposeMs": 110.065677,
+      "moveNetMs": 49.81988
+    },
+    {
+      "timestampMs": 2600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 54.366922,
+      "rtmposeMs": 157.219766,
+      "moveNetMs": 67.37734
+    },
+    {
+      "timestampMs": 2800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 54.795714,
+      "rtmposeMs": 87.217092,
+      "moveNetMs": 57.579089
+    },
+    {
+      "timestampMs": 3000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 50.981755,
+      "rtmposeMs": 149.616848,
+      "moveNetMs": 64.367923
+    },
+    {
+      "timestampMs": 3200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 41.209295,
+      "rtmposeMs": 159.034349,
+      "moveNetMs": 44.782213
+    },
+    {
+      "timestampMs": 3400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 41.046546,
+      "rtmposeMs": 109.918386,
+      "moveNetMs": 197.715853
+    },
+    {
+      "timestampMs": 3600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 62.619798,
+      "rtmposeMs": 125.951637,
+      "moveNetMs": 52.052297
+    },
+    {
+      "timestampMs": 3800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 85.85455,
+      "rtmposeMs": 115.787012,
+      "moveNetMs": 50.095214
+    },
+    {
+      "timestampMs": 4000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 93.033176,
+      "rtmposeMs": 215.509396,
+      "moveNetMs": 102.59201
+    },
+    {
+      "timestampMs": 4200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 48.756963,
+      "rtmposeMs": 146.698931,
+      "moveNetMs": 44.814004
+    },
+    {
+      "timestampMs": 4400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 44.225713,
+      "rtmposeMs": 123.427513,
+      "moveNetMs": 44.879921
+    },
+    {
+      "timestampMs": 4600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 64.852965,
+      "rtmposeMs": 112.505761,
+      "moveNetMs": 45.003879
+    },
+    {
+      "timestampMs": 4800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 50.409922,
+      "rtmposeMs": 225.653981,
+      "moveNetMs": 51.268296
+    },
+    {
+      "timestampMs": 5000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 41.062004,
+      "rtmposeMs": 154.388807,
+      "moveNetMs": 57.832547
+    },
+    {
+      "timestampMs": 5200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 58.04838,
+      "rtmposeMs": 175.484059,
+      "moveNetMs": 126.242679
+    },
+    {
+      "timestampMs": 5400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 115.280387,
+      "rtmposeMs": 124.148929,
+      "moveNetMs": 45.073296
+    },
+    {
+      "timestampMs": 5600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 53.931798,
+      "rtmposeMs": 150.176557,
+      "moveNetMs": 49.96863
+    },
+    {
+      "timestampMs": 5800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 107.38626,
+      "rtmposeMs": 147.945182,
+      "moveNetMs": 71.682507
+    },
+    {
+      "timestampMs": 6000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 45.835421,
+      "rtmposeMs": 94.166051,
+      "moveNetMs": 52.011755
+    },
+    {
+      "timestampMs": 6200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 50.18463,
+      "rtmposeMs": 113.733095,
+      "moveNetMs": 62.525465
+    },
+    {
+      "timestampMs": 6400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 56.739339,
+      "rtmposeMs": 99.406927,
+      "moveNetMs": 190.851644
+    },
+    {
+      "timestampMs": 6600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 60.98459,
+      "rtmposeMs": 223.494273,
+      "moveNetMs": 45.70038
+    },
+    {
+      "timestampMs": 6800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 65.70134,
+      "rtmposeMs": 182.262227,
+      "moveNetMs": 58.080464
+    },
+    {
+      "timestampMs": 7000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 58.353964,
+      "rtmposeMs": 109.083052,
+      "moveNetMs": 44.632005
+    },
+    {
+      "timestampMs": 7200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 66.114715,
+      "rtmposeMs": 120.187679,
+      "moveNetMs": 44.653004
+    },
+    {
+      "timestampMs": 7400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 42.45413,
+      "rtmposeMs": 197.124394,
+      "moveNetMs": 49.18813
+    },
+    {
+      "timestampMs": 7600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 71.036299,
+      "rtmposeMs": 120.969054,
+      "moveNetMs": 44.553838
+    },
+    {
+      "timestampMs": 7800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 72.669632,
+      "rtmposeMs": 133.726764,
+      "moveNetMs": 44.704046
+    },
+    {
+      "timestampMs": 8000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 64.316882,
+      "rtmposeMs": 175.355851,
+      "moveNetMs": 61.71434
+    },
+    {
+      "timestampMs": 8200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 58.57513,
+      "rtmposeMs": 85.432092,
+      "moveNetMs": 58.074631
+    },
+    {
+      "timestampMs": 8400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 93.370676,
+      "rtmposeMs": 136.728972,
+      "moveNetMs": 60.203214
+    },
+    {
+      "timestampMs": 8600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 62.500964,
+      "rtmposeMs": 119.634095,
+      "moveNetMs": 57.663381
+    },
+    {
+      "timestampMs": 8800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 94.796343,
+      "rtmposeMs": 159.184683,
+      "moveNetMs": 63.494381
+    },
+    {
+      "timestampMs": 9000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 61.876506,
+      "rtmposeMs": 167.816642,
+      "moveNetMs": 58.373881
+    },
+    {
+      "timestampMs": 9200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 75.565591,
+      "rtmposeMs": 85.809509,
+      "moveNetMs": 60.526381
+    },
+    {
+      "timestampMs": 9400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 53.027922,
+      "rtmposeMs": 87.703009,
+      "moveNetMs": 101.594219
+    },
+    {
+      "timestampMs": 9600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 47.13888,
+      "rtmposeMs": 154.451349,
+      "moveNetMs": 56.388506
+    },
+    {
+      "timestampMs": 9800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 42.900379,
+      "rtmposeMs": 125.736929,
+      "moveNetMs": 48.354547
+    },
+    {
+      "timestampMs": 10000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 52.848547,
+      "rtmposeMs": 113.839261,
+      "moveNetMs": 68.005299
+    },
+    {
+      "timestampMs": 10200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 55.213297,
+      "rtmposeMs": 94.28651,
+      "moveNetMs": 54.462922
+    },
+    {
+      "timestampMs": 10400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 56.637589,
+      "rtmposeMs": 124.259346,
+      "moveNetMs": 49.357005
+    },
+    {
+      "timestampMs": 10600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 71.608549,
+      "rtmposeMs": 141.309931,
+      "moveNetMs": 82.703258
+    },
+    {
+      "timestampMs": 10800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 60.379381,
+      "rtmposeMs": 114.70872,
+      "moveNetMs": 52.546089
+    },
+    {
+      "timestampMs": 11000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 41.691713,
+      "rtmposeMs": 109.629053,
+      "moveNetMs": 46.278463
+    },
+    {
+      "timestampMs": 11200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 45.886463,
+      "rtmposeMs": 109.573344,
+      "moveNetMs": 106.686427
+    },
+    {
+      "timestampMs": 11400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 52.504297,
+      "rtmposeMs": 122.66922,
+      "moveNetMs": 51.761214
+    },
+    {
+      "timestampMs": 11600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 56.430798,
+      "rtmposeMs": 83.820633,
+      "moveNetMs": 52.395297
+    },
+    {
+      "timestampMs": 11800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 82.629467,
+      "rtmposeMs": 93.930093,
+      "moveNetMs": 98.392009
+    },
+    {
+      "timestampMs": 12000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 78.8938,
+      "rtmposeMs": 203.465354,
+      "moveNetMs": 44.929796
+    },
+    {
+      "timestampMs": 12200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 85.4213,
+      "rtmposeMs": 123.381138,
+      "moveNetMs": 44.396337
+    },
+    {
+      "timestampMs": 12400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 48.896172,
+      "rtmposeMs": 139.73818,
+      "moveNetMs": 93.431634
+    },
+    {
+      "timestampMs": 12600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 125.15097,
+      "rtmposeMs": 128.445679,
+      "moveNetMs": 44.911129
+    },
+    {
+      "timestampMs": 12800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 53.899797,
+      "rtmposeMs": 151.359432,
+      "moveNetMs": 48.02263
+    },
+    {
+      "timestampMs": 13000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 50.361213,
+      "rtmposeMs": 140.874097,
+      "moveNetMs": 78.890591
+    },
+    {
+      "timestampMs": 13200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 46.385796,
+      "rtmposeMs": 121.202971,
+      "moveNetMs": 44.299213
+    },
+    {
+      "timestampMs": 13400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 40.892546,
+      "rtmposeMs": 149.826598,
+      "moveNetMs": 44.418796
+    },
+    {
+      "timestampMs": 13600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 55.275422,
+      "rtmposeMs": 143.742514,
+      "moveNetMs": 104.780469
+    },
+    {
+      "timestampMs": 13800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 56.477172,
+      "rtmposeMs": 207.169396,
+      "moveNetMs": 44.662629
+    },
+    {
+      "timestampMs": 14000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 67.239715,
+      "rtmposeMs": 198.477728,
+      "moveNetMs": 49.190463
+    },
+    {
+      "timestampMs": 14200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 186.347894,
+      "rtmposeMs": 98.742593,
+      "moveNetMs": 70.139716
+    },
+    {
+      "timestampMs": 14400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 75.417132,
+      "rtmposeMs": 162.747809,
+      "moveNetMs": 63.955506
+    },
+    {
+      "timestampMs": 14600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 42.231588,
+      "rtmposeMs": 96.28676,
+      "moveNetMs": 45.058713
+    },
+    {
+      "timestampMs": 14800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 101.777385,
+      "rtmposeMs": 97.352218,
+      "moveNetMs": 107.751011
+    },
+    {
+      "timestampMs": 15000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 177.865059,
+      "rtmposeMs": 95.297093,
+      "moveNetMs": 53.972631
+    },
+    {
+      "timestampMs": 15200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 63.466673,
+      "rtmposeMs": 122.227596,
+      "moveNetMs": 52.334047
+    },
+    {
+      "timestampMs": 15400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 79.193883,
+      "rtmposeMs": 131.709638,
+      "moveNetMs": 96.194635
+    },
+    {
+      "timestampMs": 15600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 160.516933,
+      "rtmposeMs": 87.27105,
+      "moveNetMs": 59.257339
+    },
+    {
+      "timestampMs": 15800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 41.521671,
+      "rtmposeMs": 209.647229,
+      "moveNetMs": 55.110422
+    },
+    {
+      "timestampMs": 16000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 45.337838,
+      "rtmposeMs": 122.048221,
+      "moveNetMs": 105.363719
+    },
+    {
+      "timestampMs": 16200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 60.664506,
+      "rtmposeMs": 207.909146,
+      "moveNetMs": 45.35563
+    },
+    {
+      "timestampMs": 16400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 59.497506,
+      "rtmposeMs": 171.273726,
+      "moveNetMs": 60.834965
+    },
+    {
+      "timestampMs": 16600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 48.800671,
+      "rtmposeMs": 84.196967,
+      "moveNetMs": 51.49288
+    },
+    {
+      "timestampMs": 16800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 80.075925,
+      "rtmposeMs": 152.60814,
+      "moveNetMs": 50.744463
+    },
+    {
+      "timestampMs": 17000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 49.44188,
+      "rtmposeMs": 184.066768,
+      "moveNetMs": 55.293005
+    },
+    {
+      "timestampMs": 17200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 56.177214,
+      "rtmposeMs": 84.630883,
+      "moveNetMs": 113.565387
+    },
+    {
+      "timestampMs": 17400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 240.73819,
+      "rtmposeMs": 84.310259,
+      "moveNetMs": 64.243965
+    },
+    {
+      "timestampMs": 17600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 89.547509,
+      "rtmposeMs": 124.261679,
+      "moveNetMs": 53.165589
+    },
+    {
+      "timestampMs": 17800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 90.632509,
+      "rtmposeMs": 100.893052,
+      "moveNetMs": 87.847176
+    },
+    {
+      "timestampMs": 18000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 73.194341,
+      "rtmposeMs": 104.351635,
+      "moveNetMs": 61.25234
+    },
+    {
+      "timestampMs": 18200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 49.445963,
+      "rtmposeMs": 138.316222,
+      "moveNetMs": 50.854421
+    },
+    {
+      "timestampMs": 18400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 53.231505,
+      "rtmposeMs": 83.710966,
+      "moveNetMs": 100.280552
+    },
+    {
+      "timestampMs": 18600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 109.559011,
+      "rtmposeMs": 103.324385,
+      "moveNetMs": 65.762382
+    },
+    {
+      "timestampMs": 18800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 70.907215,
+      "rtmposeMs": 225.979356,
+      "moveNetMs": 54.707631
+    },
+    {
+      "timestampMs": 19000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 51.041463,
+      "rtmposeMs": 85.242509,
+      "moveNetMs": 104.860885
+    },
+    {
+      "timestampMs": 19200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 68.646382,
+      "rtmposeMs": 156.264933,
+      "moveNetMs": 52.23313
+    },
+    {
+      "timestampMs": 19400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 44.297754,
+      "rtmposeMs": 156.410016,
+      "moveNetMs": 54.550714
+    },
+    {
+      "timestampMs": 19600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 49.569338,
+      "rtmposeMs": 90.196176,
+      "moveNetMs": 111.257011
+    },
+    {
+      "timestampMs": 19800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 62.61209,
+      "rtmposeMs": 85.365883,
+      "moveNetMs": 59.170714
+    },
+    {
+      "timestampMs": 20000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 41.88713,
+      "rtmposeMs": 90.625801,
+      "moveNetMs": 45.109755
+    },
+    {
+      "timestampMs": 20200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 61.407423,
+      "rtmposeMs": 153.771599,
+      "moveNetMs": 150.560765
+    },
+    {
+      "timestampMs": 20400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 111.877803,
+      "rtmposeMs": 125.254555,
+      "moveNetMs": 54.83888
+    },
+    {
+      "timestampMs": 20600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 48.715339,
+      "rtmposeMs": 130.858679,
+      "moveNetMs": 61.258173
+    },
+    {
+      "timestampMs": 20800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 54.237089,
+      "rtmposeMs": 102.626968,
+      "moveNetMs": 54.889923
+    },
+    {
+      "timestampMs": 21000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 50.868713,
+      "rtmposeMs": 146.710139,
+      "moveNetMs": 55.816547
+    },
+    {
+      "timestampMs": 21200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 53.607756,
+      "rtmposeMs": 149.26564,
+      "moveNetMs": 54.051089
+    },
+    {
+      "timestampMs": 21400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 59.953589,
+      "rtmposeMs": 86.512717,
+      "moveNetMs": 83.316342
+    },
+    {
+      "timestampMs": 21600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 67.702632,
+      "rtmposeMs": 126.945263,
+      "moveNetMs": 54.82138
+    },
+    {
+      "timestampMs": 21800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 48.347296,
+      "rtmposeMs": 84.128925,
+      "moveNetMs": 58.010465
+    },
+    {
+      "timestampMs": 22000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 147.517807,
+      "rtmposeMs": 86.005509,
+      "moveNetMs": 79.625841
+    },
+    {
+      "timestampMs": 22200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 47.140629,
+      "rtmposeMs": 128.636972,
+      "moveNetMs": 55.828214
+    },
+    {
+      "timestampMs": 22400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 40.468462,
+      "rtmposeMs": 153.575307,
+      "moveNetMs": 49.714296
+    },
+    {
+      "timestampMs": 22600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 42.887254,
+      "rtmposeMs": 121.593595,
+      "moveNetMs": 80.763091
+    },
+    {
+      "timestampMs": 22800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 65.267132,
+      "rtmposeMs": 152.560265,
+      "moveNetMs": 50.744464
+    },
+    {
+      "timestampMs": 23000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 57.634172,
+      "rtmposeMs": 113.304637,
+      "moveNetMs": 50.145963
+    },
+    {
+      "timestampMs": 23200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 47.196046,
+      "rtmposeMs": 106.670677,
+      "moveNetMs": 75.714049
+    },
+    {
+      "timestampMs": 23400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 192.936103,
+      "rtmposeMs": 86.868259,
+      "moveNetMs": 45.197255
+    },
+    {
+      "timestampMs": 23600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 48.837547,
+      "rtmposeMs": 136.279805,
+      "moveNetMs": 45.94188
+    },
+    {
+      "timestampMs": 23800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 72.412633,
+      "rtmposeMs": 100.307385,
+      "moveNetMs": 62.802257
+    },
+    {
+      "timestampMs": 24000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 151.222307,
+      "rtmposeMs": 118.591387,
+      "moveNetMs": 64.722006
+    },
+    {
+      "timestampMs": 24200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 42.848754,
+      "rtmposeMs": 84.742883,
+      "moveNetMs": 62.100214
+    },
+    {
+      "timestampMs": 24400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 42.512463,
+      "rtmposeMs": 85.2148,
+      "moveNetMs": 60.334465
+    },
+    {
+      "timestampMs": 24600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 41.204046,
+      "rtmposeMs": 86.023008,
+      "moveNetMs": 65.363381
+    },
+    {
+      "timestampMs": 24800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 47.864671,
+      "rtmposeMs": 151.974723,
+      "moveNetMs": 55.769005
+    },
+    {
+      "timestampMs": 25000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 44.800004,
+      "rtmposeMs": 126.085471,
+      "moveNetMs": 57.211006
+    },
+    {
+      "timestampMs": 25200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 73.480466,
+      "rtmposeMs": 156.571599,
+      "moveNetMs": 64.460673
+    },
+    {
+      "timestampMs": 25400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 51.49438,
+      "rtmposeMs": 123.149554,
+      "moveNetMs": 63.38209
+    },
+    {
+      "timestampMs": 25600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 47.805046,
+      "rtmposeMs": 124.706179,
+      "moveNetMs": 109.071677
+    },
+    {
+      "timestampMs": 25800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 99.666302,
+      "rtmposeMs": 122.088471,
+      "moveNetMs": 63.80559
+    },
+    {
+      "timestampMs": 26000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 43.78588,
+      "rtmposeMs": 166.774309,
+      "moveNetMs": 56.153422
+    },
+    {
+      "timestampMs": 26200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 117.335762,
+      "rtmposeMs": 85.068383,
+      "moveNetMs": 101.262468
+    },
+    {
+      "timestampMs": 26400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 54.994338,
+      "rtmposeMs": 141.994514,
+      "moveNetMs": 56.114631
+    },
+    {
+      "timestampMs": 26600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 41.847463,
+      "rtmposeMs": 173.843767,
+      "moveNetMs": 55.476172
+    },
+    {
+      "timestampMs": 26800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 70.943798,
+      "rtmposeMs": 200.713562,
+      "moveNetMs": 122.086221
+    },
+    {
+      "timestampMs": 27000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 67.49359,
+      "rtmposeMs": 99.060219,
+      "moveNetMs": 45.217963
+    },
+    {
+      "timestampMs": 27200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 48.42863,
+      "rtmposeMs": 110.634136,
+      "moveNetMs": 53.44063
+    },
+    {
+      "timestampMs": 27400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 42.841462,
+      "rtmposeMs": 86.567259,
+      "moveNetMs": 109.785677
+    },
+    {
+      "timestampMs": 27600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 82.796592,
+      "rtmposeMs": 108.051428,
+      "moveNetMs": 58.018922
+    },
+    {
+      "timestampMs": 27800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 46.500422,
+      "rtmposeMs": 119.744345,
+      "moveNetMs": 51.341797
+    },
+    {
+      "timestampMs": 28000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 47.84238,
+      "rtmposeMs": 85.40205,
+      "moveNetMs": 45.056671
+    },
+    {
+      "timestampMs": 28200,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 58.208215,
+      "rtmposeMs": 130.343805,
+      "moveNetMs": 47.018421
+    },
+    {
+      "timestampMs": 28400,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 47.482755,
+      "rtmposeMs": 130.566055,
+      "moveNetMs": 47.516005
+    },
+    {
+      "timestampMs": 28600,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 52.607047,
+      "rtmposeMs": 112.471053,
+      "moveNetMs": 89.731551
+    },
+    {
+      "timestampMs": 28800,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 56.93388,
+      "rtmposeMs": 126.292554,
+      "moveNetMs": 57.501798
+    },
+    {
+      "timestampMs": 29000,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 47.835963,
+      "rtmposeMs": 168.956517,
+      "moveNetMs": 61.765381
+    },
+    {
+      "timestampMs": 29200,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 43.055837,
+      "rtmposeMs": 85.849175,
+      "moveNetMs": 97.543926
+    },
+    {
+      "timestampMs": 29400,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 51.455255,
+      "rtmposeMs": 118.980137,
+      "moveNetMs": 45.407255
+    },
+    {
+      "timestampMs": 29600,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 48.392755,
+      "rtmposeMs": 146.978098,
+      "moveNetMs": 45.231962
+    },
+    {
+      "timestampMs": 29800,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 50.941922,
+      "rtmposeMs": 109.984011,
+      "moveNetMs": 57.345756
+    },
+    {
+      "timestampMs": 30000,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 50.091422,
+      "rtmposeMs": 202.717104,
+      "moveNetMs": 61.290547
+    },
+    {
+      "timestampMs": 30200,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 46.753297,
+      "rtmposeMs": 109.732303,
+      "moveNetMs": 54.658339
+    },
+    {
+      "timestampMs": 30400,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 57.190631,
+      "rtmposeMs": 141.325889,
+      "moveNetMs": 101.525635
+    },
+    {
+      "timestampMs": 30600,
+      "warmup": false,
+      "executionOrder": [
+        "ML_KIT",
+        "RTMPOSE",
+        "MOVENET"
+      ],
+      "mlKitMs": 59.651089,
+      "rtmposeMs": 136.772138,
+      "moveNetMs": 45.347172
+    },
+    {
+      "timestampMs": 30800,
+      "warmup": false,
+      "executionOrder": [
+        "RTMPOSE",
+        "MOVENET",
+        "ML_KIT"
+      ],
+      "mlKitMs": 47.12488,
+      "rtmposeMs": 132.34293,
+      "moveNetMs": 50.251255
+    },
+    {
+      "timestampMs": 31000,
+      "warmup": false,
+      "executionOrder": [
+        "MOVENET",
+        "ML_KIT",
+        "RTMPOSE"
+      ],
+      "mlKitMs": 48.750255,
+      "rtmposeMs": 118.605096,
+      "moveNetMs": 48.600713
+    }
+  ],
+  "summary": "ML Kit\uff1a\u5e73\u5747 65.5 ms \u00b7 P95 125.2 ms \u00b7 153 \u5e27\nRTMPose-t\uff1a\u5e73\u5747 128.6 ms \u00b7 P95 203.5 ms \u00b7 153 \u5e27\nMoveNet Lightning\uff1a\u5e73\u5747 64.7 ms \u00b7 P95 109.8 ms \u00b7 153 \u5e27\n\u8017\u65f6\u542b\u5404\u6a21\u578b\u524d\u5904\u7406\u3001\u63a8\u7406\u548c\u5173\u952e\u70b9\u89e3\u7801\uff1b\u4e0d\u542b\u8bfb\u5e27\u3001\u7ed8\u5236\u548c\u524d3\u5e27\u9884\u70ed\u3002\n\u64ad\u653e\u4ecd\u6bcf200ms\u53d6\u4e00\u5e27\uff0c\u8bbe\u5907\u8f83\u6162\u65f6\u51cf\u901f\u3002\u7f6e\u4fe1\u5ea6\u9608\u503c\u4e0d\u540c\uff0c\u9aa8\u67b6\u5dee\u5f02\u4e0d\u4ee3\u8868\u51c6\u786e\u7387\u3002",
+  "limitations": "One video; no labelled accuracy measurement; confidences not calibrated across models; playback interval is not inference FPS."
+}

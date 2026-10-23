@@ -1,0 +1,35 @@
+{
+  "source_video": "demo-android/src/main/res/raw/real_squats_demo.mp4",
+  "source_sha256": "c9ed037ae948e012a4efaabd3cac22ecfb24b86ec35a40270482cde6f3122c26",
+  "frame_index_sha256": "69ed0c7579f78b11691b0cf685fe30824ad9c97b74a38bc83702c15eb58bec12",
+  "frame_interval_ms": 200,
+  "frame_count": 156,
+  "voice_generator": "macOS say / Tingting; prerecorded offline Chinese prompts",
+  "voice_files": {
+    "finish.wav": "78a5da85c57ba44496007aa1d20ea08b11e12c1466fbab6b786ae535297b17cd",
+    "next.wav": "ccab1fd5643c552189cea595c574ec4d6c496dc0088ae0082b16b0cce8a77bf8",
+    "range.wav": "cb2c524181c3c4b01c64eeaf942fec010b3bc49e1345e9cf27cb08a65cdb80d8",
+    "ready.wav": "d05044b1cebcde56d693e7b93be61d7c462e200b71653619de6d03b42958d3cb",
+    "rep_1.wav": "171e653ecdea5a47d1e97fdf3277126a45cb0c1444eb2243d512611d2f92f931",
+    "rep_10.wav": "0e4bb843d627d22b055e19a584bb8360ef6d1db93ee4c94bcbbbcf011c28bffc",
+    "rep_2.wav": "c68311a9acf4084c491933e1c6d9ffab79ab2afd3a386b7f59a19a1e530f1d31",
+    "rep_3.wav": "a0752170e12fd67a810b58c20277e42ff15eca5c0f9068dcaf78266c635a1c28",
+    "rep_4.wav": "b8fee348d76aea0aaa0bac1f79a47e0283a1e163558bc0076046c4aeed9f57be",
+    "rep_5.wav": "9d9f70f5e2bc3493a8fc1739100be6a18514ba4abd1dd4db9aee75783454ad64",
+    "rep_6.wav": "cfb869186a379e8711e5a097ae633376ebd48e6f61992e46db049ce152c4f6d5",
+    "rep_7.wav": "fadaa0d3668c345298a36b9259e0b7677a3ad1bb30b8184fb2d4f4f943a90c44",
+    "rep_8.wav": "bd95398cadc6f454886646deeab7cf22fabc9ad637fd447cbd576433708d5439",
+    "rep_9.wav": "bf09f6527f64f69c79d87153ddd4ebc8209f2e8b97b9110915fe520475aa3e09",
+    "rest.wav": "d4e87f36ef44a2f0b32ed28576edc3c41dabc3d69fb81d54b1db8e67b4941a29",
+    "resume.wav": "23e16ab3ed0ae39301cefdc7c70abb7b3103c9937917d00d4e1188bc599932d8",
+    "start.wav": "c9d2b0033001a5f07e9c393dfd741ba5c8730f57f64b65f988a8f55bcf1dcd48",
+    "stopped.wav": "e605543b00ce3a1a076ca1d711f5d4993e534080e2fd5cbec814c7b156d006bd",
+    "tracking.wav": "0fa42aafe71bff3297975acb105311962886efe5e10ff052fcf8fcf38471a4e4"
+  },
+  "known_loop_cuts_frame_indices": [
+    32,
+    63,
+    94,
+    125
+  ]
+}
