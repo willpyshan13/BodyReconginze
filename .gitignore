@@ -6,6 +6,10 @@ DerivedData/
 *.a
 .gradle/
 .kotlin/
+.venv/
+__pycache__/
+*.pyc
+tools/motion_collection/data/
 .cxx/
 .externalNativeBuild/
 .idea/

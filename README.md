@@ -1,3 +1,23 @@
+## 电脑端动作采集工作台
+
+在电脑浏览器中录制或导入单人视频，人工标注动作区间，使用项目内置 RTMPose-t 模型提取 COCO-17 关键点，并按拍摄者分组导出训练数据。默认静音、只监听本机；默认数据保存在 `tools/motion_collection/data/`，不提交到 Git。导出数据不是训练好的模型，Android 仍需后续接入训练结果或动作规则。
+
+需要 Python 3.12。首次配置及启动：
+
+```sh
+python3.12 -m venv tools/motion_collection/.venv
+tools/motion_collection/.venv/bin/python -m pip install -r tools/motion_collection/requirements.txt
+tools/motion_collection/.venv/bin/python tools/motion_collection/collector.py
+```
+
+打开 `http://127.0.0.1:8765/`。录制或导入前填写匿名拍摄者编号，然后保存并确认片段标注，提取关节点；至少三个不同拍摄者的合格样本才能按人划分导出。可用 `--data-dir /path/to/data` 自定义存储目录。要导出手工设置的 Android 规则示例：
+
+```sh
+tools/motion_collection/.venv/bin/python tools/motion_collection/collector.py --rule-action squat --low-angle 90 --high-angle 160 --rule-output /tmp/squat-rule.json
+```
+
+规则阈值为人工输入，需要自行验证；Android 需要相应规则执行器。采样和设备验证限制见 `docs/design/motion-collection-studio-v1.md`。电脑与 Android 端预处理尚未逐帧校准，不能声称输出完全一致。
+
 ## AI训练实验室（已按批准设计实现）
 
 训练首页进入“AI训练实验室”。六页共享同一条本机分析记录：自动动作分类、参考动作对比、问题回放、连续动作分段、稳定性测试、基于证据的文字问答。全程静音、不接大模型。

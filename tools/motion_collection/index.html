@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>动作采集工作台</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><span class="mark">●</span><div><strong>动作采集工作台</strong><small>FIT MOTION STUDIO</small></div></div>
+    <div class="sidebar-label">数据制作</div>
+    <nav aria-label="工作流程">
+      <button type="button" data-page="capture" class="nav selected">◉　采集与导入</button>
+      <button type="button" data-page="label" class="nav">▤　片段标注</button>
+      <button type="button" data-page="export" class="nav">□　数据检查与导出</button>
+    </nav>
+    <div class="side-footer"><span>●</span> 本地工作空间 <small>素材保存在本机</small></div>
+  </aside>
+  <main class="workspace">
+    <header><div><span>动作数据集　/　</span><strong id="crumb">采集与导入</strong></div><span>本地运行 · 静音</span></header>
+    <div id="message" class="message" role="status" hidden></div>
+    <section data-screen="capture">
+      <div class="heading"><div><div class="eyebrow">01 / CAPTURE</div><h1>采集动作样本</h1><p>选择动作和拍摄者，录制或导入单人视频。</p></div><span class="pill">所有素材保存在本机</span></div>
+      <div class="columns"><div>
+        <div class="camera"><video id="camera" autoplay muted playsinline></video><div id="camera-empty" class="empty-camera"><div class="camera-icon">◎</div><strong>准备采集画面</strong><p>打开摄像头，或直接导入已有视频</p></div><span id="camera-status" class="camera-tag" hidden>摄像头预览</span></div>
+        <div class="controls"><button type="button" id="open-camera" class="secondary">打开摄像头</button><button type="button" id="record" class="primary" disabled>●　开始录制</button><button type="button" id="import" class="secondary">导入视频</button><input id="file" type="file" accept="video/mp4,video/quicktime,video/webm,video/x-m4v" hidden></div>
+        <p class="muted">录制时不采集声音。离开采集页或关闭页面会关闭摄像头。</p>
+      </div><div>
+        <div class="panel"><div class="panel-head"><strong>样本信息</strong><span>导入前填写</span></div>
+          <label>动作类别<select id="capture-action"><option value="squat">深蹲</option><option value="push_up">俯卧撑</option><option value="arm_raise">双臂上举</option><option value="other">其他行为</option></select></label>
+          <label>拍摄者编号<input id="person" placeholder="例如 P001" maxlength="40" autocomplete="off"></label>
+          <div class="two-fields"><label>拍摄角度<select id="angle"><option value="side">侧面</option><option value="front">正面</option><option value="oblique">斜侧面</option></select></label><label>动作节奏<select id="tempo"><option value="normal">正常</option><option value="slow">较慢</option><option value="fast">较快</option></select></label></div>
+          <div class="consent"><strong>采集授权</strong><p>视频包含个人画面，请仅采集已获得同意的素材。</p></div>
+          <button type="button" class="primary full" data-go="label">前往片段标注　→</button>
+        </div><div class="tip"><strong>建议先录制</strong><p>每段一种主要动作，同时采集站立、走动等其他行为。</p></div>
+      </div></div>
+    </section>
+    <section data-screen="label" hidden>
+      <div class="heading"><div><div class="eyebrow">02 / LABEL</div><h1>标注动作片段</h1><p>检查起止位置和动作类型，保留人工标注。</p></div></div>
+      <div class="columns"><div>
+        <label>选择样本<select id="sample-select"><option value="">尚无样本，请先导入或录制视频</option></select></label>
+        <div class="camera label-video"><video id="playback" controls muted playsinline preload="metadata"></video><div id="playback-empty" class="empty-camera">选择样本后在这里预览</div></div>
+        <div class="controls"><button id="set-start" class="secondary" type="button">设置起点</button><button id="set-end" class="secondary" type="button">设置终点</button><span id="current-time" class="muted">当前 00:00.0</span></div>
+        <p class="muted">拖动视频进度，再设置起止点；视频回放默认静音。</p>
+      </div><div><div class="panel"><div class="panel-head"><strong>人工标注</strong><span>单人视频</span></div>
+        <label>动作类型<select id="label-action"><option value="squat">深蹲</option><option value="push_up">俯卧撑</option><option value="arm_raise">双臂上举</option><option value="other">其他行为</option></select></label>
+        <div class="two-fields"><label>起始秒数<input id="start" type="number" min="0" step="0.01" placeholder="0.00"></label><label>结束秒数<input id="end" type="number" min="0" step="0.01" placeholder="视频时长"></label></div>
+        <label>完整次数 <span class="optional">选填</span><input id="count" type="number" min="0" max="10000" step="1" placeholder="例如 3"></label>
+        <label>备注 <span class="optional">选填</span><input id="note" maxlength="500" placeholder="例如侧面、部分遮挡"></label>
+        <label class="check"><input id="reviewed" type="checkbox"> 我已检查此片段和标签</label>
+        <button type="button" id="save" class="primary full">保存标注</button>
+        <button type="button" id="extract" class="secondary full">提取此片段的关节点</button>
+        <p id="extract-status" class="muted" aria-live="polite">请先选择视频并保存标注</p>
+      </div><div class="tip"><strong>关节点提取</strong><p>使用本地 RTMPose；自动结果与人工标注分别保存。</p></div></div></div>
+    </section>
+    <section data-screen="export" hidden>
+      <div class="heading"><div><div class="eyebrow">03 / EXPORT</div><h1>检查并导出数据</h1><p>确认素材和标注后，生成训练所需的数据包。</p></div><span class="pill">按拍摄者划分</span></div>
+      <div class="export-grid"><div class="panel"><div class="panel-head"><strong>样本清单</strong><span id="sample-count">0 条</span></div><div class="sample-head"><span>素材 / 拍摄者</span><span>动作</span><span>检查状态</span></div><div id="sample-list"><p>尚无样本，请先采集或导入视频。</p></div></div>
+        <div class="panel"><div class="panel-head"><strong>导出内容</strong><span>本地文件</span></div><label class="check"><input type="checkbox" checked disabled> 动作标签与时间段</label><label class="check"><input type="checkbox" checked disabled> 关节点、置信度与时间戳</label><label class="check"><input id="include-video" type="checkbox"> 原始视频 <span class="optional">可选</span></label><div class="consent"><strong>训练数据包</strong><p>按拍摄者划分训练、验证和测试集合，至少需要 3 位不同拍摄者。未确认或未提取的样本不纳入导出。</p></div><button type="button" id="export" class="primary full">生成数据包</button><p id="export-result" class="muted" aria-live="polite"></p></div>
+      </div>
+      <div class="tip"><strong>数据存储位置</strong><p id="data-dir">正在读取…</p><p>导出的是训练数据，不是训练好的模型；需要另外完成训练和 Android 适配。</p></div>
+    </section>
+  </main>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
